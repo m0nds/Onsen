@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+#top {
+    background-color: #ee9617;
+    background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%); 
+    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%);   
+    height: 700px;
+    width: 100%;
+}
+
+div nav {
+    height: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+div nav img {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+div nav a{
+    float: right;
+    color: honeydew;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:nth-child(3) {
+    border: 1px solid white;
+    box-sizing: content-box;
+    border-radius: 20px;
+    width: auto;
+    height: fit-content;
+}
+
+div nav input[type="text"] {
+    height: 30px;
+    width: 200px;
+    border-radius: 2px;
+    margin-left: 40%;
+    margin-top: 10px;
+    color: grey;
+    border: none;
+}
+
+.wrapper {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    display: block;
+}
+
+.para1 {
+    padding: 50px;
+    color: honeydew;
+}
+
+ .iphone img {
+    height: 600px;
+    width: 300px;
+    float: right;
+    position: relative;
+    margin-top: -400px;
+    margin-right: 200px;
+    border-radius: 50px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.iphone img:hover {
+    height: 600px;
+    width: 300px;
+    transform: rotate(360deg);
+}
+
+.para2 {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.para2 button {
+    height: 60px;
+    width: 250px;
+}
+
+.para2 button:nth-child(odd) {
+    background-color: #fff;
+    color: #f03b2a;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+.para2 button:nth-child(even) {
+    background-color: #f03b2a;
+    color: #fff;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.para2 button:nth-child(odd):hover {
+    background-color: maroon;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.para2 button:nth-child(even):hover {
+    background-color: maroon;
+}
+
+.framework {
+    padding-left: 50px;
+    height: auto;
+    width: 60%;
+}
+
+#p {
+    font-size: 20px;
+    color: honeydew;
+}
+
+.containerframe {
+    display: flex;
+}
+
+.angular1, .angular2, .react, .vue {
+    border:  #ffffff2e;
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff2e;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.angular1 button, .angular2 button, .react button, .vue button {
+    margin: 85px 20px;
+    background-color: rgb(255, 255, 255);
+    color: #f03b2a;
+    border: none;
+    width: 95px;
+    height: 30px;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+
+.angular1 button:hover, .angular2 button:hover, .react button:hover, .vue button:hover {
+    background-color: maroon;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.angular1:hover, .angular2:hover, .react:hover, .vue:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#top2 {
+    padding: 50px 200px;
+    background-color: #fafafa;
+    height: 300px;
+}
+
+.cont {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-top: 55px;
+}
+
+.fastest {
+    float: right;
+    width: 50%;
+}
+
+.cont h2 {
+    width: 450px;
+    display: block;
+    color: #ff1a33;
+    font-weight: lighter;
+}
+
+.cont p {
+    width: 450px;
+    padding-top: 30px;
+}
+
+#top3 {
+    padding: 50px 200px;
+    background-color: #fff;
+    height: 500px;
+}
+
+.cont2 {
+    float: right;
+    width: 50%;
+    height: auto;
+    padding-top: 85px;
+}
+
+.outline {
+    float: left;
+    width: 50%;
+}
+
+.cont2 h2 {
+    width: 450px;
+    display: block;
+    color: #ff1a33;
+    font-weight: lighter;
+}
+
+.cont2 p {
+    width: 450px;
+    padding-top: 30px;
+}
+
+#top4 {
+    padding: 50px 200px;
+    background-color: #fafafa;
+    height: 300px;
+}
+
+.cont3 {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-top: 55px;
+}
+
+.performance {
+    float: right;
+    width: 50%;
+}
+
+.cont3 h2 {
+    width: 450px;
+    display: block;
+    color: #ff1a33;
+    font-weight: lighter;
+}
+
+.cont3 p {
+    width: 450px;
+    padding-top: 30px;
+}
+
+#top5 {
+    padding: 50px 200px;
+    background-color: #fff;
+    height: 300px;
+}
+
+.cont4 {
+    float: right;
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.easy {
+    float: left;
+    width: 50%;
+}
+
+.cont4 h2 {
+    width: 450px;
+    display: block;
+    color: #ff1a33;
+    font-weight: lighter;
+}
+
+.cont4 p {
+    width: 450px;
+    padding-top: 30px;
+}
+
+#top6 {
+    padding: 50px 200px;
+    background-color: #fafafa;
+    height: 300px;
+}
+
+.cont5 {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.cloud {
+    float: right;
+    width: 50%;
+}
+
+.cont5 h2 {
+    width: 450px;
+    display: block;
+    color: #ff1a33;
+    font-weight: lighter;
+}
+
+.cont5 p {
+    width: 450px;
+    padding-top: 30px;
+}
+
+#bottom {
+    padding: 50px 200px;
+    background-color: #fff;
+}
+
+.contain {
+    text-align: center;
+    
+}
+
+.contain h2 {
+    font-weight: lighter;
+    color: #ff1a33;
+}
+
+.pp {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon1 img:nth-child(even) {
+    border-radius: 50%;
+    margin-left: -290px;
+}
+
+.icon1 h2 {
+    font-weight: lighter;
+    color: #ff1a33;
+    margin-left: 20%;
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+
+.icon1 p{
+    color: #666;
+}
+
+.icon2 img:nth-child(even) {
+    border-radius: 50%;
+    margin-left: -290px;
+}
+
+.icon2 h2 {
+    font-weight: lighter;
+    color: #ff1a33;
+    margin-left: 20%;
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+
+.icon2 p{
+    color: #666;
+}
+
+.icon3 img:nth-child(even) {
+    border-radius: 50%;
+    margin-left: -290px;
+}
+
+.icon3 h2 {
+    font-weight: lighter;
+    color: #ff1a33;
+    margin-left: 20%;
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+
+.icon3 p{
+    color: #666;
+}
+
+#quotes {
+    padding: 50px 200px;
+    border-top: 2px solid#e8edee;
+    max-width: 1100px;
+    margin: 0px auto;
+    font-family: 'Times New Roman';
+}
+
+.mainquote h2 {
+    color: #666;
+    font-weight: lighter;
+}
+
+.users {
+    padding: 70px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 300px;
+}
+
+.user2, .user3 {
+    display: flex;
+    cursor: pointer;
+}
+
+.user3 {
+    opacity: 0.4;
+}
+
+.user3:hover {
+    opacity: 1.0;
+}
+
+.user2 img, .user3 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ph2 h3, .ph3 h3 {
+    font-weight: lighter;
+}
+
+.ph2 p, .ph3 p {
+    color: #666;
+}
+
+footer {
+    background-color: #cdd3d4;
+    width: auto;
+    height: 300px;
+    padding: 30px 100px;
+}
+
+.footercontainer {
+    padding: 20px 0;
+    display: flex;
+}
+
+.home {
+    display: grid;
+    width: 15%;
+    margin: 0 20px;
+    line-height: 1em;
+}
+
+.home h4, .guide h4, .api h4, .resources h4, .staytuned h4 {
+    color: #666;
+}
+
+.home a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.guide {
+    display: grid;
+    width: 20%;
+    margin: 0 20px;
+    line-height: 1em;
+}
+
+.guide a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.api {
+    display: grid;
+    width: 25%;
+    margin: 0 20px;
+    line-height: 1.5em;
+}
+
+.api a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.resources {
+    display: grid;
+    width: 20%;
+    margin: 0 20px;
+    line-height: 1em;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.borderleft {
+    border-left: 2px solid #666;
+    margin: 0 20px;
+}
+
+.staytuned {
+    display: grid;
+    width: auto;
+}
+
+.staytuned p{
+    color: #666;
+    font-weight: normal;
+}
+
+.subscribe input[type="text"] {
+    width: 300px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.subscribe button{
+    height: 50px;
+    width: 120px;
+    color: #fff;
+    background-color: #f03b2a;
+    border: 0;
+}
+
+.copyright {
+    color: #666666;
+}
+
+.copyright small a {
+    text-decoration: none;
+    color: #666;
+}
+
+.copyright small a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
